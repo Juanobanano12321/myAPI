@@ -3,7 +3,6 @@ package com.example.myapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,13 +15,6 @@ import com.example.myapi.Encriptación.Sha1;
 import com.example.myapi.Json.Info;
 import com.example.myapi.Json.Json;
 import com.example.myapi.MySQLite.DbInfo;
-import com.example.myapi.MySQLite.DbMyPaginaWeb;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Register extends AppCompatActivity {
 
@@ -38,7 +30,7 @@ public class Register extends AppCompatActivity {
 
         EditText Name = (EditText) findViewById(R.id.editTextELName);
         EditText firstName = (EditText) findViewById(R.id.editTextElPassword);
-        EditText lastName = (EditText) findViewById(R.id.editTextRlastName);
+        EditText lastName = (EditText) findViewById(R.id.editTextRuserName);
         EditText userName = (EditText) findViewById(R.id.editTextRuserName);
         EditText Mail = (EditText) findViewById(R.id.editTextRMail);
         EditText Age = (EditText) findViewById(R.id.editTextRAge);
